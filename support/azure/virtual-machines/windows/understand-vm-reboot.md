@@ -106,6 +106,7 @@ The Azure platform is designed to handle host node issues with minimal impact on
 
 If a host server can't reboot, Azure initiates an automatic recovery action to take the faulty host out of rotation for further investigation. During this auto-recovery process, all VMs on the host are automatically relocated to another healthy host server. While this process usually completes within 15 minutes, the recovery time can vary based on factors such as the host's memory size and the recovery methods used. For more details about how Azure handles these scenarios, see [Service Healing – Auto-recovery of Virtual Machines](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines/).
 
+
 ### Unplanned maintenance
 
 On rare occasions, the Azure operations team might need to perform maintenance activities to ensure the overall health of the Azure platform. This behavior might affect VM availability, and it usually results in the same auto-recovery action as described earlier.  
